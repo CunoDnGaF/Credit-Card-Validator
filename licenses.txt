@@ -1,0 +1,9 @@
+Copyright 
+
+american-express.svg (svgrepo.com),
+diners-club.svg (svgrepo.com),
+discover.svg (svgrepo.com),
+jcb.svg (svgrepo.com),
+mastercard.svg (svgrepo.com),
+mir.svg (svgrepo.com),
+visa.svg (svgrepo.com)

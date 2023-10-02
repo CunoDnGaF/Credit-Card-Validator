@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(167, 160, 236);
+}
+
+.card-validator {
+    display: flex;
+	width: 100vmin;
+	height: 20vmin;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 100%;
+	opacity: 0.02;
+}
+
+.visa {
+	background-image: url(446666af2545c08c5403.svg);
+}
+
+.mastercard {
+	background-image: url(1e87384d57b62f4e3177.svg);
+}
+
+.american-express {
+	background-image: url(7dcf5b6a2f9ae07eabef.svg);
+}
+
+.discover {
+	background-image: url(46736b760ef56f54fb4f.svg);
+}
+
+.jcb {
+	background-image: url(2b734615197056b8fe01.svg);
+}
+
+.diners {
+	background-image: url(d19a2131ba778c735aa1.svg);
+}
+
+.mir {
+	background-image: url(b61bbd844f24037f7726.svg);
+}
+
+.card-icons {
+    width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.card-field {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.card-number {
+	width: 30%;
+	height: 4vmin;
+  	padding: 1vmin;
+	margin-right: 1%;
+	border-radius: 0.25rem;
+	border: 2px solid rgb(19, 18, 18);
+}
+
+.card-number:focus {
+	border-color: rgb(204, 51, 145);
+	outline: 0;
+}
+
+.card-button {
+	height: 4vmin;
+	border-radius: 0.25rem;
+	border: 2px solid black;
+	background-color: green;
+	font-weight: bold;
+}
+
+.card-button:hover {
+	border-color: rgb(204, 51, 145);
+	cursor: pointer;
+}
+  
+
+.title {
+    text-align: center;
+	font-size: 4vmin;
+	color: rgb(204, 51, 145);
+}
+
+.active {
+	opacity: 1;
+}
+
